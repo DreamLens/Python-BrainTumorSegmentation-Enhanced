@@ -13,3 +13,6 @@ import numpy as np
 global a
 import glob, os, os.path
 import cv2
+
+class Ui_MainWindow(object):
+    def setupUi(self, MainWindow):
