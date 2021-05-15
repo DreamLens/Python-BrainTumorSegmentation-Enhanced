@@ -16,3 +16,6 @@ import cv2
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
+        MainWindow.setObjectName("MainWindow")
+        MainWindow.resize(900,600)
+        MainWindow.setStyleSheet("background-color: #005bea;")
