@@ -30,3 +30,6 @@ class Ui_MainWindow(object):
 
         frame_width = screen_geometry.width() * 8 // 10  # Integer division
         frame_height = screen_geometry.height() * 6 // 10  # Integer division
+
+        # Get the frame position to center it
+        frame_x = screen_center.x() - frame_width // 2
