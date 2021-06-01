@@ -33,3 +33,6 @@ class Ui_MainWindow(object):
 
         # Get the frame position to center it
         frame_x = screen_center.x() - frame_width // 2
+        frame_y = screen_center.y() - frame_height // 2
+        
+        self.frame.setGeometry(QtCore.QRect(frame_x, frame_y, frame_width, frame_height))
