@@ -27,3 +27,6 @@ class Ui_MainWindow(object):
         # Get screen geometry
         screen_geometry = QtWidgets.QDesktopWidget().screenGeometry()
         screen_center = screen_geometry.center()
+
+        frame_width = screen_geometry.width() * 8 // 10  # Integer division
+        frame_height = screen_geometry.height() * 6 // 10  # Integer division
