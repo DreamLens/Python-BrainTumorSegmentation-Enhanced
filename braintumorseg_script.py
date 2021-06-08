@@ -36,3 +36,6 @@ class Ui_MainWindow(object):
         frame_y = screen_center.y() - frame_height // 2
         
         self.frame.setGeometry(QtCore.QRect(frame_x, frame_y, frame_width, frame_height))
+        self.frame.setStyleSheet("background-color: qlineargradient(spread:pad, x1:0.630318, y1:0.392, x2:0.068, y2:0, stop:0.551136 #4facfe, stop:1 #00f2fe);\n"
+                                 "border-radius: 25px;\n"
+                                 "border: 2px solid #00c6fb;")
