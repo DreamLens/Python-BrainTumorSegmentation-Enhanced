@@ -46,3 +46,6 @@ class Ui_MainWindow(object):
         self.image_dir = "C://Users/HASSAN/OneDrive/Python/test"  # Define image directory
         
         self.slctimg = QtWidgets.QPushButton(self.frame)
+        self.slctimg.setGeometry(QtCore.QRect(600, 10, 171, 61))
+        self.slctimg.setStyleSheet("color:white;\n"
+                                   "font: 14pt \"Gadugi\";\n"
