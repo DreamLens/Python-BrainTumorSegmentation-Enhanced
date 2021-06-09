@@ -42,3 +42,7 @@ class Ui_MainWindow(object):
         self.frame.setFrameShape(QtWidgets.QFrame.StyledPanel)
         self.frame.setFrameShadow(QtWidgets.QFrame.Raised)
         self.frame.setObjectName("frame")
+        
+        self.image_dir = "C://Users/HASSAN/OneDrive/Python/test"  # Define image directory
+        
+        self.slctimg = QtWidgets.QPushButton(self.frame)
