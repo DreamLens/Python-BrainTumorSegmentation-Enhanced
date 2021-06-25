@@ -49,3 +49,6 @@ class Ui_MainWindow(object):
         self.slctimg.setGeometry(QtCore.QRect(600, 10, 171, 61))
         self.slctimg.setStyleSheet("color:white;\n"
                                    "font: 14pt \"Gadugi\";\n"
+                                   "border-radius: 20px;\n"
+                                   "border: 2px solid #00c6fb;\n"
+                                   "background-color:#005bea;")
