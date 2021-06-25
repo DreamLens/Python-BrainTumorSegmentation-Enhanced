@@ -54,3 +54,6 @@ class Ui_MainWindow(object):
                                    "background-color:#005bea;")
       
         self.slctimg.setObjectName("slctimg")
+        
+        self.rgbtgray = QtWidgets.QPushButton(self.frame)
+        self.rgbtgray.setGeometry(QtCore.QRect(600, 80, 171, 61))
