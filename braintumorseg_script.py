@@ -57,3 +57,6 @@ class Ui_MainWindow(object):
         
         self.rgbtgray = QtWidgets.QPushButton(self.frame)
         self.rgbtgray.setGeometry(QtCore.QRect(600, 80, 171, 61))
+        self.rgbtgray.setStyleSheet("color:white;\n"
+                                    "font: 14pt \"Gadugi\";\n"
+                                    "   border-radius: 20px;\n"
