@@ -70,3 +70,6 @@ class Ui_MainWindow(object):
         self.bilfil.setStyleSheet("color:white;\n"
                                   "font: 14pt \"Gadugi\";\n"
                                   "   border-radius: 20px;\n"
+                                  "    border: 2px solid #00c6fb;\n"
+                                  "background-color:#005bea;\n"
+                                  "width:171px;\n"
