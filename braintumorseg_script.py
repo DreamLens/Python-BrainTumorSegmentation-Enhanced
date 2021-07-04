@@ -68,3 +68,5 @@ class Ui_MainWindow(object):
         self.bilfil = QtWidgets.QPushButton(self.frame)
         self.bilfil.setGeometry(QtCore.QRect(600, 150, 171, 61))
         self.bilfil.setStyleSheet("color:white;\n"
+                                  "font: 14pt \"Gadugi\";\n"
+                                  "   border-radius: 20px;\n"
