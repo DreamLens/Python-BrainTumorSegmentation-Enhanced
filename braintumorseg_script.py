@@ -64,3 +64,7 @@ class Ui_MainWindow(object):
                                     "background-color:#005bea;\n"
                                     "width:171px;\n"
                                     "height:61px;")
+        self.rgbtgray.setObjectName("rgbtgray")
+        self.bilfil = QtWidgets.QPushButton(self.frame)
+        self.bilfil.setGeometry(QtCore.QRect(600, 150, 171, 61))
+        self.bilfil.setStyleSheet("color:white;\n"
