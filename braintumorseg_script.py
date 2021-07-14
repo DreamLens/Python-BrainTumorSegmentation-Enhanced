@@ -76,3 +76,5 @@ class Ui_MainWindow(object):
                                   "height:61px;")
         self.bilfil.setObjectName("bilfil")
         self.medfil = QtWidgets.QPushButton(self.frame)
+        self.medfil.setGeometry(QtCore.QRect(600, 220, 171, 61))
+        self.medfil.setStyleSheet("color:white;\n"
