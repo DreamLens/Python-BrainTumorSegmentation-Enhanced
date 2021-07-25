@@ -78,3 +78,6 @@ class Ui_MainWindow(object):
         self.medfil = QtWidgets.QPushButton(self.frame)
         self.medfil.setGeometry(QtCore.QRect(600, 220, 171, 61))
         self.medfil.setStyleSheet("color:white;\n"
+                                  "font: 14pt \"Gadugi\";\n"
+                                  "   border-radius: 20px;\n"
+                                  "    border: 2px solid #00c6fb;\n"
