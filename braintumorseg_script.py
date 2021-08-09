@@ -84,3 +84,5 @@ class Ui_MainWindow(object):
                                   "background-color:#005bea;\n"
                                   "width:171px;\n"
                                   "height:61px;")
+        self.medfil.setObjectName("medfil")
+        self.gaufil = QtWidgets.QPushButton(self.frame)
