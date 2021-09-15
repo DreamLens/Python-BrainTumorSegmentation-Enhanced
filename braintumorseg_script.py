@@ -86,3 +86,7 @@ class Ui_MainWindow(object):
                                   "height:61px;")
         self.medfil.setObjectName("medfil")
         self.gaufil = QtWidgets.QPushButton(self.frame)
+        self.gaufil.setGeometry(QtCore.QRect(390, 150, 111, 41))
+        self.gaufil.setStyleSheet("background-color: #008CBA;\n"
+                                  "text-align: center;\n"
+                                  "\n"
