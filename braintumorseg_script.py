@@ -90,3 +90,5 @@ class Ui_MainWindow(object):
         self.gaufil.setStyleSheet("background-color: #008CBA;\n"
                                   "text-align: center;\n"
                                   "\n"
+                                  "")
+        self.gaufil.setObjectName("gaufil")
