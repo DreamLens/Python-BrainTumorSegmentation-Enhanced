@@ -92,3 +92,7 @@ class Ui_MainWindow(object):
                                   "\n"
                                   "")
         self.gaufil.setObjectName("gaufil")
+        self.thres = QtWidgets.QPushButton(self.frame)
+        self.thres.setGeometry(QtCore.QRect(600, 290, 171, 61))
+        self.thres.setStyleSheet("color:white;\n"
+                                 "font: 14pt \"Gadugi\";\n"
