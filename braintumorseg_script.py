@@ -102,3 +102,7 @@ class Ui_MainWindow(object):
                                  "width:171px;\n"
                                  "height:61px;")
         self.thres.setObjectName("thres")
+        self.dilate = QtWidgets.QPushButton(self.frame)
+        self.dilate.setGeometry(QtCore.QRect(600, 360, 171, 61))
+        self.dilate.setStyleSheet("color:white;\n"
+                                  "font: 14pt \"Gadugi\";\n"
