@@ -106,3 +106,4 @@ class Ui_MainWindow(object):
         self.dilate.setGeometry(QtCore.QRect(600, 360, 171, 61))
         self.dilate.setStyleSheet("color:white;\n"
                                   "font: 14pt \"Gadugi\";\n"
+                                  "   border-radius: 20px;\n"
