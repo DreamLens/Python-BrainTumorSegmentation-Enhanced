@@ -112,3 +112,6 @@ class Ui_MainWindow(object):
                                   "width:171px;\n"
                                   "height:61px;")
         self.dilate.setObjectName("dilate")
+        self.morpho = QtWidgets.QPushButton(self.frame)
+        self.morpho.setGeometry(QtCore.QRect(600, 430, 171, 61))
+        self.morpho.setStyleSheet("color:white;\n"
