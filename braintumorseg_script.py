@@ -119,3 +119,7 @@ class Ui_MainWindow(object):
                                   "   border-radius: 20px;\n"
                                   "    border: 2px solid #00c6fb;\n"
                                   "background-color:#005bea;\n"
+                                  "width:171px;\n"
+                                  "height:61px;")
+        self.morpho.setObjectName("morpho")
+        self.addcol = QtWidgets.QPushButton(self.frame)
