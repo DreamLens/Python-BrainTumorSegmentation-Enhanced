@@ -118,3 +118,4 @@ class Ui_MainWindow(object):
                                   "font: 14pt \"Gadugi\";\n"
                                   "   border-radius: 20px;\n"
                                   "    border: 2px solid #00c6fb;\n"
+                                  "background-color:#005bea;\n"
