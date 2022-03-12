@@ -115,3 +115,6 @@ class Ui_MainWindow(object):
         self.morpho = QtWidgets.QPushButton(self.frame)
         self.morpho.setGeometry(QtCore.QRect(600, 430, 171, 61))
         self.morpho.setStyleSheet("color:white;\n"
+                                  "font: 14pt \"Gadugi\";\n"
+                                  "   border-radius: 20px;\n"
+                                  "    border: 2px solid #00c6fb;\n"
