@@ -123,3 +123,6 @@ class Ui_MainWindow(object):
                                   "height:61px;")
         self.morpho.setObjectName("morpho")
         self.addcol = QtWidgets.QPushButton(self.frame)
+        self.addcol.setGeometry(QtCore.QRect(600, 500, 171, 61))
+        self.addcol.setStyleSheet("color:white;\n"
+                                  "font: 14pt \"Gadugi\";\n"
