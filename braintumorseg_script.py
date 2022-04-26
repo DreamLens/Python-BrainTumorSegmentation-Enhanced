@@ -132,3 +132,6 @@ class Ui_MainWindow(object):
                                   "width:171px;\n"
                                   "height:61px;")
         self.addcol.setObjectName("addcol")
+        self.savimg = QtWidgets.QPushButton(self.frame)
+        self.savimg.setGeometry(QtCore.QRect(600, 570, 171, 61))
+        self.savimg.setStyleSheet("color:white;\n"
