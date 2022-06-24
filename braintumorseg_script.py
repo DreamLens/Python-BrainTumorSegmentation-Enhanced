@@ -143,3 +143,5 @@ class Ui_MainWindow(object):
                                   "height:61px;")
         self.savimg.setObjectName("savimg")
         self.label = QtWidgets.QLabel(self.frame)
+        self.label.setGeometry(QtCore.QRect(20, 90, 261, 421))
+        self.label.setStyleSheet("background-color: rgb(218, 218, 218);\n"
