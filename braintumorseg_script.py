@@ -149,3 +149,7 @@ class Ui_MainWindow(object):
                                  "    border: 2px solid #00c6fb;")
         self.label.setText("")
         self.label.setObjectName("label")
+        self.label_2 = QtWidgets.QLabel(self.frame)
+        self.label_2.setGeometry(QtCore.QRect(299, 90, 261, 421))
+        self.label_2.setStyleSheet("background-color: rgb(218, 218, 218);\n"
+                                   "   border-radius: 20px;\n"
