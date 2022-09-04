@@ -155,3 +155,4 @@ class Ui_MainWindow(object):
                                    "   border-radius: 20px;\n"
                                    "    border: 2px solid #00c6fb;")
         self.label_2.setText("")
+        self.label_2.setObjectName("label_2")
