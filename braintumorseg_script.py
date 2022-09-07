@@ -160,3 +160,4 @@ class Ui_MainWindow(object):
         self.titlelbl.setGeometry(QtCore.QRect(450, 10, 501, 41))
         font = QtGui.QFont()
         font.setFamily("MS Shell Dlg 2")
+        font.setPointSize(26)
