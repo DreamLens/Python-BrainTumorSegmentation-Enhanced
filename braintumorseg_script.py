@@ -156,3 +156,7 @@ class Ui_MainWindow(object):
                                    "    border: 2px solid #00c6fb;")
         self.label_2.setText("")
         self.label_2.setObjectName("label_2")
+        self.titlelbl = QtWidgets.QLabel(self.centralwidget)
+        self.titlelbl.setGeometry(QtCore.QRect(450, 10, 501, 41))
+        font = QtGui.QFont()
+        font.setFamily("MS Shell Dlg 2")
