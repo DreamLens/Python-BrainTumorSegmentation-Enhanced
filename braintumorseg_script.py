@@ -161,3 +161,6 @@ class Ui_MainWindow(object):
         font = QtGui.QFont()
         font.setFamily("MS Shell Dlg 2")
         font.setPointSize(26)
+        font.setBold(False)
+        font.setItalic(False)
+        font.setWeight(50)
