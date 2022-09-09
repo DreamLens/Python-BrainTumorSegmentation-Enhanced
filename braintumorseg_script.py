@@ -164,3 +164,5 @@ class Ui_MainWindow(object):
         font.setBold(False)
         font.setItalic(False)
         font.setWeight(50)
+        self.titlelbl.setFont(font)
+        self.titlelbl.setStyleSheet("opacity:0.6;\n"
