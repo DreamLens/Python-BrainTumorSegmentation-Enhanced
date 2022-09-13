@@ -166,3 +166,5 @@ class Ui_MainWindow(object):
         font.setWeight(50)
         self.titlelbl.setFont(font)
         self.titlelbl.setStyleSheet("opacity:0.6;\n"
+                                    "font: 26pt \"MS Shell Dlg 2\";\n"
+                                    "color: rgb(216, 216, 216);")
