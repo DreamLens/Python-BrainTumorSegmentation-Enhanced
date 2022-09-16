@@ -168,3 +168,7 @@ class Ui_MainWindow(object):
         self.titlelbl.setStyleSheet("opacity:0.6;\n"
                                     "font: 26pt \"MS Shell Dlg 2\";\n"
                                     "color: rgb(216, 216, 216);")
+        self.titlelbl.setObjectName("titlelbl")
+        MainWindow.setCentralWidget(self.centralwidget)
+
+         # Define and set up other buttons similarly
