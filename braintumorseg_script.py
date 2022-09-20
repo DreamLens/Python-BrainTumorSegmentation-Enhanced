@@ -179,3 +179,5 @@ class Ui_MainWindow(object):
         error_dialog = QtWidgets.QErrorMessage()
         error_dialog.setWindowTitle('Image processing tool')
         error_dialog.setWindowIcon(QIcon('C:\\Users\HASSAN\Desktop\error.png'))
+        error_dialog.showMessage('Please click the buttons in Sequential order to proceed!')
+        error_dialog.exec()
