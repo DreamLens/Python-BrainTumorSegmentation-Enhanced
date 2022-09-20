@@ -175,3 +175,7 @@ class Ui_MainWindow(object):
         
         self.retranslateUi(MainWindow)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
+
+        error_dialog = QtWidgets.QErrorMessage()
+        error_dialog.setWindowTitle('Image processing tool')
+        error_dialog.setWindowIcon(QIcon('C:\\Users\HASSAN\Desktop\error.png'))
