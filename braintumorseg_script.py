@@ -181,3 +181,10 @@ class Ui_MainWindow(object):
         error_dialog.setWindowIcon(QIcon('C:\\Users\HASSAN\Desktop\error.png'))
         error_dialog.showMessage('Please click the buttons in Sequential order to proceed!')
         error_dialog.exec()
+
+
+        path = "C://Users/HASSAN/OneDrive/Python/test"
+
+        filelist = glob.glob(os.path.join(path, "*.png"))
+        for f in filelist:
+            os.remove(f)
