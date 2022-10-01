@@ -188,3 +188,10 @@ class Ui_MainWindow(object):
         filelist = glob.glob(os.path.join(path, "*.png"))
         for f in filelist:
             os.remove(f)
+            print('deleted')
+
+        self.original_image = None
+        self.segmented_image = None
+
+        self.slctimg.clicked.connect(self.setImage)
+        self.rgbtgray.clicked.connect(self.filter1)
