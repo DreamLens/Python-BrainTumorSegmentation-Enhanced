@@ -195,3 +195,6 @@ class Ui_MainWindow(object):
 
         self.slctimg.clicked.connect(self.setImage)
         self.rgbtgray.clicked.connect(self.filter1)
+        self.bilfil.clicked.connect(self.filter2)
+        self.medfil.clicked.connect(self.filter3)
+        self.thres.clicked.connect(self.threshing)
