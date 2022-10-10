@@ -201,3 +201,6 @@ class Ui_MainWindow(object):
         self.dilate.clicked.connect(self.dilation)
         self.morpho.clicked.connect(self.contouring)
         self.addcol.clicked.connect(self.applyingcolor)
+        self.savimg.clicked.connect(self.saving)
+
+    def retranslateUi(self, MainWindow):
