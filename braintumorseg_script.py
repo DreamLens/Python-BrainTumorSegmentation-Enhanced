@@ -198,3 +198,6 @@ class Ui_MainWindow(object):
         self.bilfil.clicked.connect(self.filter2)
         self.medfil.clicked.connect(self.filter3)
         self.thres.clicked.connect(self.threshing)
+        self.dilate.clicked.connect(self.dilation)
+        self.morpho.clicked.connect(self.contouring)
+        self.addcol.clicked.connect(self.applyingcolor)
