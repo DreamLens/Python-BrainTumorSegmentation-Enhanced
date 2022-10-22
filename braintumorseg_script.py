@@ -204,3 +204,7 @@ class Ui_MainWindow(object):
         self.savimg.clicked.connect(self.saving)
 
     def retranslateUi(self, MainWindow):
+        _translate = QtCore.QCoreApplication.translate
+        MainWindow.setWindowTitle(_translate("MainWindow", "Tumor Segmentation Panel"))
+        self.slctimg.setText(_translate("MainWindow", "Select Image"))
+        self.rgbtgray.setText(_translate("MainWindow", "Bilateral Filter"))
