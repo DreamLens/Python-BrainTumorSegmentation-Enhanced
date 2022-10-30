@@ -208,3 +208,6 @@ class Ui_MainWindow(object):
         MainWindow.setWindowTitle(_translate("MainWindow", "Tumor Segmentation Panel"))
         self.slctimg.setText(_translate("MainWindow", "Select Image"))
         self.rgbtgray.setText(_translate("MainWindow", "Bilateral Filter"))
+        self.bilfil.setText(_translate("MainWindow", "Median Filter"))
+        self.medfil.setText(_translate("MainWindow", "Gaussian Filter"))
+        self.thres.setText(_translate("MainWindow", "Thresholding"))
