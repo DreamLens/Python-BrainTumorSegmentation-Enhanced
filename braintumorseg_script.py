@@ -211,3 +211,7 @@ class Ui_MainWindow(object):
         self.bilfil.setText(_translate("MainWindow", "Median Filter"))
         self.medfil.setText(_translate("MainWindow", "Gaussian Filter"))
         self.thres.setText(_translate("MainWindow", "Thresholding"))
+        self.dilate.setText(_translate("MainWindow", "Dilation"))
+        self.morpho.setText(_translate("MainWindow", "Morphology"))
+        self.addcol.setText(_translate("MainWindow", "Add Color Map"))
+        self.savimg.setText(_translate("MainWindow", "Save Image"))
