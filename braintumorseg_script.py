@@ -215,3 +215,7 @@ class Ui_MainWindow(object):
         self.morpho.setText(_translate("MainWindow", "Morphology"))
         self.addcol.setText(_translate("MainWindow", "Add Color Map"))
         self.savimg.setText(_translate("MainWindow", "Save Image"))
+        self.titlelbl.setText(_translate("MainWindow", "Tumor Segmentation Panel"))
+
+    def setImage(self):
+        global a
