@@ -219,3 +219,7 @@ class Ui_MainWindow(object):
 
     def setImage(self):
         global a
+        fileName, _ = QtWidgets.QFileDialog.getOpenFileName(None, "Select Image", "D://BrainTumorSegmentation/resources/",
+                                                            "Image Files (*.png *.jpg *jpeg *.bmp)")  # Ask for file
+
+        if fileName:
