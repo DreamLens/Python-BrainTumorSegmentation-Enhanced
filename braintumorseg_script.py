@@ -223,3 +223,4 @@ class Ui_MainWindow(object):
                                                             "Image Files (*.png *.jpg *jpeg *.bmp)")  # Ask for file
 
         if fileName:
+            self.a = fileName
