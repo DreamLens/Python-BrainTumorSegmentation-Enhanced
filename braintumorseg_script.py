@@ -224,3 +224,6 @@ class Ui_MainWindow(object):
 
         if fileName:
             self.a = fileName
+
+            pixmap = QtGui.QPixmap(fileName)  # Setup pixmap with the provided image
+            pixmap = pixmap.scaled(self.label.width(), self.label.height(),
