@@ -227,3 +227,6 @@ class Ui_MainWindow(object):
 
             pixmap = QtGui.QPixmap(fileName)  # Setup pixmap with the provided image
             pixmap = pixmap.scaled(self.label.width(), self.label.height(),
+                                   QtCore.Qt.KeepAspectRatio)  # Scale pixmap
+            self.label.setPixmap(pixmap)  # Set the pixmap onto the label
+            self.label.setAlignment(QtCore.Qt.AlignCenter)  # Align the label to center
