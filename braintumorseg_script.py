@@ -230,3 +230,8 @@ class Ui_MainWindow(object):
                                    QtCore.Qt.KeepAspectRatio)  # Scale pixmap
             self.label.setPixmap(pixmap)  # Set the pixmap onto the label
             self.label.setAlignment(QtCore.Qt.AlignCenter)  # Align the label to center
+
+    def filter1(self):
+        global a
+        
+        if a:
