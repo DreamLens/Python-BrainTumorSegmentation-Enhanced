@@ -235,3 +235,6 @@ class Ui_MainWindow(object):
         global a
         
         if a:
+            img = cv2.imread(a)
+            grey = cv2.cvtColor(img, cv2.COLOR_RGB2GRAY)
+            self.bilateral = cv2.bilateralFilter(grey, 2, 50, 50)
