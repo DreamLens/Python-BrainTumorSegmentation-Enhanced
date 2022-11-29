@@ -238,3 +238,6 @@ class Ui_MainWindow(object):
             img = cv2.imread(a)
             grey = cv2.cvtColor(img, cv2.COLOR_RGB2GRAY)
             self.bilateral = cv2.bilateralFilter(grey, 2, 50, 50)
+            
+            pixmap = QtGui.QPixmap.fromImage(QtGui.QImage(self.bilateral.data, self.bilateral.shape[1], self.bilateral.shape[0],
+                                                          self.bilateral.strides[0], QtGui.QImage.Format_Grayscale8))
