@@ -241,3 +241,5 @@ class Ui_MainWindow(object):
             
             pixmap = QtGui.QPixmap.fromImage(QtGui.QImage(self.bilateral.data, self.bilateral.shape[1], self.bilateral.shape[0],
                                                           self.bilateral.strides[0], QtGui.QImage.Format_Grayscale8))
+            pixmap = pixmap.scaled(self.label_2.width(), self.label_2.height(),
+                                   QtCore.Qt.KeepAspectRatio)
