@@ -243,3 +243,8 @@ class Ui_MainWindow(object):
                                                           self.bilateral.strides[0], QtGui.QImage.Format_Grayscale8))
             pixmap = pixmap.scaled(self.label_2.width(), self.label_2.height(),
                                    QtCore.Qt.KeepAspectRatio)
+            self.label_2.setPixmap(pixmap)
+            
+    def filter2(self):
+       if self.bilateral is not None:
+            self.median = cv2.medianBlur(self.bilateral, 5)
