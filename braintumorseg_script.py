@@ -248,3 +248,6 @@ class Ui_MainWindow(object):
     def filter2(self):
        if self.bilateral is not None:
             self.median = cv2.medianBlur(self.bilateral, 5)
+            
+            pixmap = QtGui.QPixmap.fromImage(QtGui.QImage(self.median.data, self.median.shape[1], self.median.shape[0],
+                                                          self.median.strides[0], QtGui.QImage.Format_Grayscale8))
