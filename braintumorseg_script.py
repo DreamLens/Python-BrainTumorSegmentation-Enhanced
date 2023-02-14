@@ -253,3 +253,6 @@ class Ui_MainWindow(object):
                                                           self.median.strides[0], QtGui.QImage.Format_Grayscale8))
             pixmap = pixmap.scaled(self.label_2.width(), self.label_2.height(),
                                    QtCore.Qt.KeepAspectRatio)
+            self.label_2.setPixmap(pixmap)
+    
+    def filter3(self):
