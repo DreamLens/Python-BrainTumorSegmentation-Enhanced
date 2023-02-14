@@ -256,3 +256,6 @@ class Ui_MainWindow(object):
             self.label_2.setPixmap(pixmap)
     
     def filter3(self):
+        if self.median is not None:
+            self.Gaussian = cv2.GaussianBlur(self.median, (5, 5), cv2.BORDER_CONSTANT)
+            
