@@ -264,3 +264,9 @@ class Ui_MainWindow(object):
             pixmap = pixmap.scaled(self.label_2.width(), self.label_2.height(),
                                    QtCore.Qt.KeepAspectRatio)
             self.label_2.setPixmap(pixmap)
+    
+    def threshing(self):
+        if self.Gaussian is not None:
+            # Apply adaptive thresholding
+            thresh1 = cv2.adaptiveThreshold(self.Gaussian, 127, cv2.ADAPTIVE_THRESH_MEAN_C, cv2.THRESH_BINARY, 11, 2)
+            
