@@ -259,3 +259,8 @@ class Ui_MainWindow(object):
         if self.median is not None:
             self.Gaussian = cv2.GaussianBlur(self.median, (5, 5), cv2.BORDER_CONSTANT)
             
+            pixmap = QtGui.QPixmap.fromImage(QtGui.QImage(self.Gaussian.data, self.Gaussian.shape[1], self.Gaussian.shape[0],
+                                                          self.Gaussian.strides[0], QtGui.QImage.Format_Grayscale8))
+            pixmap = pixmap.scaled(self.label_2.width(), self.label_2.height(),
+                                   QtCore.Qt.KeepAspectRatio)
+            self.label_2.setPixmap(pixmap)
