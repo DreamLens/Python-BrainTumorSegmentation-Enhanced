@@ -270,3 +270,6 @@ class Ui_MainWindow(object):
             # Apply adaptive thresholding
             thresh1 = cv2.adaptiveThreshold(self.Gaussian, 127, cv2.ADAPTIVE_THRESH_MEAN_C, cv2.THRESH_BINARY, 11, 2)
             
+            self.segmented_image = thresh1  # Update segmented_image with the thresholded image
+    
+            pixmap = QtGui.QPixmap.fromImage(QtGui.QImage(thresh1.data, thresh1.shape[1], thresh1.shape[0],
