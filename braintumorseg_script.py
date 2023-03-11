@@ -273,3 +273,6 @@ class Ui_MainWindow(object):
             self.segmented_image = thresh1  # Update segmented_image with the thresholded image
     
             pixmap = QtGui.QPixmap.fromImage(QtGui.QImage(thresh1.data, thresh1.shape[1], thresh1.shape[0],
+                                                          thresh1.strides[0], QtGui.QImage.Format_Grayscale8))
+            pixmap = pixmap.scaled(self.label_2.width(), self.label_2.height(),
+                                   QtCore.Qt.KeepAspectRatio)
