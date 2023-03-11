@@ -276,3 +276,8 @@ class Ui_MainWindow(object):
                                                           thresh1.strides[0], QtGui.QImage.Format_Grayscale8))
             pixmap = pixmap.scaled(self.label_2.width(), self.label_2.height(),
                                    QtCore.Qt.KeepAspectRatio)
+            self.label_2.setPixmap(pixmap)
+
+    def dilation(self):
+        if self.segmented_image is not None:
+            kernel = np.ones((5, 5), np.uint8)
