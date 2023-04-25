@@ -281,3 +281,7 @@ class Ui_MainWindow(object):
     def dilation(self):
         if self.segmented_image is not None:
             kernel = np.ones((5, 5), np.uint8)
+            opening1 = cv2.dilate(self.segmented_image, kernel, iterations=1)
+            opening2 = cv2.morphologyEx(opening1, cv2.MORPH_CLOSE, kernel)
+            
+            self.segmented_image = opening2
