@@ -285,3 +285,4 @@ class Ui_MainWindow(object):
             opening2 = cv2.morphologyEx(opening1, cv2.MORPH_CLOSE, kernel)
             
             self.segmented_image = opening2
+            
