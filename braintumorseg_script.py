@@ -286,3 +286,6 @@ class Ui_MainWindow(object):
             
             self.segmented_image = opening2
             
+            pixmap = QtGui.QPixmap.fromImage(QtGui.QImage(opening2.data, opening2.shape[1], opening2.shape[0],
+                                                          opening2.strides[0], QtGui.QImage.Format_Grayscale8))
+            pixmap = pixmap.scaled(self.label_2.width(), self.label_2.height(),
