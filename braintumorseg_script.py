@@ -292,3 +292,5 @@ class Ui_MainWindow(object):
                                    QtCore.Qt.KeepAspectRatio)
             self.label_2.setPixmap(pixmap)
     
+    def contouring(self):
+        if a is not None and self.segmented_image is not None:
