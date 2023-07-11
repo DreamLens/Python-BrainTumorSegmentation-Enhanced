@@ -294,3 +294,4 @@ class Ui_MainWindow(object):
     
     def contouring(self):
         if a is not None and self.segmented_image is not None:
+            # Read the image
