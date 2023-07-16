@@ -301,3 +301,6 @@ class Ui_MainWindow(object):
             print(self.segmented_image.shape, 'seg')  # Corrected line
             
             contours, hierarchy = cv2.findContours(self.segmented_image, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)[-2:]
+    
+            # Create a copy of the image
+            image_copy_with_contours = image_copy.copy()
