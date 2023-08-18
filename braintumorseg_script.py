@@ -304,3 +304,4 @@ class Ui_MainWindow(object):
     
             # Create a copy of the image
             image_copy_with_contours = image_copy.copy()
+    
