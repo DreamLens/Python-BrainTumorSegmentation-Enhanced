@@ -308,3 +308,5 @@ class Ui_MainWindow(object):
             b = cv2.drawContours(image_copy_with_contours, contours, -1, (0, 0, 255), 3)
     
             # Resize the images to have the same dimensions
+            b_resized = cv2.resize(b, (self.segmented_image.shape[1], self.segmented_image.shape[0]))
+    
