@@ -305,3 +305,6 @@ class Ui_MainWindow(object):
             # Create a copy of the image
             image_copy_with_contours = image_copy.copy()
     
+            b = cv2.drawContours(image_copy_with_contours, contours, -1, (0, 0, 255), 3)
+    
+            # Resize the images to have the same dimensions
