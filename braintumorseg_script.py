@@ -310,3 +310,4 @@ class Ui_MainWindow(object):
             # Resize the images to have the same dimensions
             b_resized = cv2.resize(b, (self.segmented_image.shape[1], self.segmented_image.shape[0]))
     
+            # Convert the grayscale image to color
