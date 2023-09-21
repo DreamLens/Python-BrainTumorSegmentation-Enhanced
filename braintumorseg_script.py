@@ -311,3 +311,7 @@ class Ui_MainWindow(object):
             b_resized = cv2.resize(b, (self.segmented_image.shape[1], self.segmented_image.shape[0]))
     
             # Convert the grayscale image to color
+            segmented_color = cv2.cvtColor(self.segmented_image, cv2.COLOR_GRAY2BGR)
+            
+            
+            # Perform weighted addition
