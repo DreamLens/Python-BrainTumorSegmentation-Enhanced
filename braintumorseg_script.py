@@ -319,3 +319,7 @@ class Ui_MainWindow(object):
     
             self.colorimg = dst
             
+            pixmap = QtGui.QPixmap.fromImage(QtGui.QImage(dst.data, dst.shape[1], dst.shape[0],
+                                                          dst.strides[0], QtGui.QImage.Format_RGB888))  # Format_RGB888 for color image
+            pixmap = pixmap.scaled(self.label_2.width(), self.label_2.height(),
+                                   QtCore.Qt.KeepAspectRatio)
