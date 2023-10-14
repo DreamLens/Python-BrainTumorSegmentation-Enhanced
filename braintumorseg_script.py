@@ -318,3 +318,4 @@ class Ui_MainWindow(object):
             dst = cv2.addWeighted(segmented_color, 0.7, b_resized, 0.3, 0)
     
             self.colorimg = dst
+            
