@@ -323,3 +323,7 @@ class Ui_MainWindow(object):
                                                           dst.strides[0], QtGui.QImage.Format_RGB888))  # Format_RGB888 for color image
             pixmap = pixmap.scaled(self.label_2.width(), self.label_2.height(),
                                    QtCore.Qt.KeepAspectRatio)
+            self.label_2.setPixmap(pixmap)
+   
+    def applyingcolor(self):
+        if self.colorimg is not None:
