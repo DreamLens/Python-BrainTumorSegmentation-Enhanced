@@ -330,3 +330,5 @@ class Ui_MainWindow(object):
             img3 = cv2.applyColorMap(self.colorimg, cv2.COLORMAP_HOT)
             self.img3 = img3
             
+            pixmap = QtGui.QPixmap.fromImage(QtGui.QImage(img3.data, img3.shape[1], img3.shape[0],
+                                                          img3.strides[0], QtGui.QImage.Format_RGB888))
