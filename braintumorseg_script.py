@@ -327,3 +327,6 @@ class Ui_MainWindow(object):
    
     def applyingcolor(self):
         if self.colorimg is not None:
+            img3 = cv2.applyColorMap(self.colorimg, cv2.COLORMAP_HOT)
+            self.img3 = img3
+            
