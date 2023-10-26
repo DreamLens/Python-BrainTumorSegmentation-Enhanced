@@ -332,3 +332,8 @@ class Ui_MainWindow(object):
             
             pixmap = QtGui.QPixmap.fromImage(QtGui.QImage(img3.data, img3.shape[1], img3.shape[0],
                                                           img3.strides[0], QtGui.QImage.Format_RGB888))
+            pixmap = pixmap.scaled(self.label_2.width(), self.label_2.height(),
+                                   QtCore.Qt.KeepAspectRatio)
+            self.label_2.setPixmap(pixmap)
+    
+    def saving(self):
