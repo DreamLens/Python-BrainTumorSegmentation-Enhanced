@@ -337,3 +337,6 @@ class Ui_MainWindow(object):
             self.label_2.setPixmap(pixmap)
     
     def saving(self):
+        if self.img3 is not None:
+            fname, _ = QtWidgets.QFileDialog.getSaveFileName(None, 'Save Image',
+                                                            self.image_dir, "Image files (*.jpg)")
