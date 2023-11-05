@@ -340,3 +340,4 @@ class Ui_MainWindow(object):
         if self.img3 is not None:
             fname, _ = QtWidgets.QFileDialog.getSaveFileName(None, 'Save Image',
                                                             self.image_dir, "Image files (*.jpg)")
+            if fname:
