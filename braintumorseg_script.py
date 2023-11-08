@@ -341,3 +341,5 @@ class Ui_MainWindow(object):
             fname, _ = QtWidgets.QFileDialog.getSaveFileName(None, 'Save Image',
                                                             self.image_dir, "Image files (*.jpg)")
             if fname:
+                cv2.imwrite(fname, self.img3)
+            else:
