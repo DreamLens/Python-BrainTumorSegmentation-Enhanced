@@ -345,3 +345,5 @@ class Ui_MainWindow(object):
             else:
                 print('Image not saved')
     
+if __name__ == "__main__":
+    import sys
