@@ -343,3 +343,5 @@ class Ui_MainWindow(object):
             if fname:
                 cv2.imwrite(fname, self.img3)
             else:
+                print('Image not saved')
+    
