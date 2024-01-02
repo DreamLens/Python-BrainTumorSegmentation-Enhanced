@@ -9,3 +9,4 @@ The image processing sequence features several steps:
 5. **Thresholded Precision:** Utilizing thresholding to highlight the image's critical features.
 6. **Dilation and Morphology:** Applying dilation and morphological operations for deep analyzation.
 7. **Color Mapping Elegance:** Incorporating a color map to create a vivid image for better interpretation.
+8. **Preserving the Epiphany:** Saving the final, segmented image for further consultations and references.
