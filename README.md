@@ -10,3 +10,7 @@ The image processing sequence features several steps:
 6. **Dilation and Morphology:** Applying dilation and morphological operations for deep analyzation.
 7. **Color Mapping Elegance:** Incorporating a color map to create a vivid image for better interpretation.
 8. **Preserving the Epiphany:** Saving the final, segmented image for further consultations and references.
+
+Visualize a perfect fusion of AI and computer vision that is set to revolutionize the healthcare industry. This sophisticated tool, representing the synergy between groundbreaking technology and human intellect, is geared towards transforming our perception of patient wellbeing. It's akin to a digital concert where innovations play out, showing promise to bring revolution in medical imaging. Beginning from surgery rooms to consulting areas, this change is what the healthcare sector has been eagerly anticipating.
+
+![GUI interface](https://user-images.githubusercontent.com/27898184/84681701-f79fa980-af4d-11ea-976c-d6f382baeab6.PNG)
